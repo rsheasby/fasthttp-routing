@@ -7,7 +7,7 @@ package routing
 import (
 	"fmt"
 
-	"github.com/valyala/fasthttp"
+	"github.com/rsheasby/fasthttp"
 )
 
 // SerializeFunc serializes the given data of arbitrary type into a byte array.

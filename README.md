@@ -1,12 +1,15 @@
 # fasthttp-routing
 
+# DON'T USE ME
+**This is a fork of fasthttp-routing modified to allow sending invalid protocol headers. Unless you're doing what I'm doing (sending deliberately invalid responses), you shouldn't use this fork. Use the original instead.**
+
 [![GoDoc](https://godoc.org/github.com/qiangxue/fasthttp-routing?status.png)](http://godoc.org/github.com/qiangxue/fasthttp-routing)
 [![Go Report](http://goreportcard.com/badge/qiangxue/fasthttp-routing)](http://goreportcard.com/report/qiangxue/fasthttp-routing)
 
 ## Description
 
 fasthttp-routing is a Go package that is adapted from [ozzo-routing](https://github.com/go-ozzo/ozzo-routing) to provide
-fast and powerful routing features for the high-performance [fasthttp](https://github.com/valyala/fasthttp) server.
+fast and powerful routing features for the high-performance [fasthttp](https://github.com/rsheasby/fasthttp) server.
 The package has the following features:
 
 * middleware pipeline architecture, similar to that of the [Express framework](http://expressjs.com).
@@ -38,7 +41,7 @@ import (
 	"fmt"
 
 	"github.com/qiangxue/fasthttp-routing"
-	"github.com/valyala/fasthttp"
+	"github.com/rsheasby/fasthttp"
 )
 
 func main() {

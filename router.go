@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/valyala/fasthttp"
+	"github.com/rsheasby/fasthttp"
 )
 
 type (
